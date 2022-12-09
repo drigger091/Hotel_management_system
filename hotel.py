@@ -35,9 +35,9 @@ class hotel():
     def show_rooms(self):
         print("We have the following rooms available")
         print("1 . Single bed ----------> 3000 INR per night")
-        print("1 . Double bed ----------> 5000 INR per night")
-        print("1 . luxury Suite----------> 8000 INR per night")
-        print("1 . Presedential Suite ----------> 10000 INR per night")
+        print("2 . Double bed ----------> 5000 INR per night")
+        print("3 . luxury Suite----------> 8000 INR per night")
+        print("4 . Presedential Suite ----------> 10000 INR per night")
         
         x = int(input("Enter your choice"))
         n = self.chekoutdate - self.checkindate
@@ -113,10 +113,10 @@ class hotel():
 
         print("===========Activity Menu=================")
         print("1 . Table Tennis-------------> 100 INR/Hour")
-        print("1 . Swimming pool------------> 100 INR/Hour")
-        print("1 . Snooker------------------> 70 INR/Hour")
-        print("1 . Game Room----------------> 150 INR/Hour")
-        print("1 . Gymnasium----------------> 120 INR/Hour")
+        print("2 . Swimming pool------------> 100 INR/Hour")
+        print("3 . Snooker------------------> 70 INR/Hour")
+        print("4 . Game Room----------------> 150 INR/Hour")
+        print("5 . Gymnasium----------------> 120 INR/Hour")
         
         
 
